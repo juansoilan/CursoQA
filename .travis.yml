@@ -1,5 +1,5 @@
-language: swift
-osx_image: xcode11.0
+language: objective-c
+osx_image: xcode11.2
 xcode_project: CursoQA.xcodeproj
 xcode_scheme: CursoQA
 xcode_sdk: iphonesimulator13.0
