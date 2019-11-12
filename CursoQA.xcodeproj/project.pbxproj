@@ -15,6 +15,7 @@
 		0D82CF07237AC6BE0033C8EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D82CF05237AC6BE0033C8EC /* LaunchScreen.storyboard */; };
 		0D82CF12237AC6BE0033C8EC /* CursoQATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D82CF11237AC6BE0033C8EC /* CursoQATests.swift */; };
 		0D82CF1D237AC6BE0033C8EC /* CursoQAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D82CF1C237AC6BE0033C8EC /* CursoQAUITests.swift */; };
+		0D82CF2B237ACA2C0033C8EC /* StringCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D82CF2A237ACA2C0033C8EC /* StringCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0D82CF18237AC6BE0033C8EC /* CursoQAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursoQAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D82CF1C237AC6BE0033C8EC /* CursoQAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoQAUITests.swift; sourceTree = "<group>"; };
 		0D82CF1E237AC6BE0033C8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D82CF2A237ACA2C0033C8EC /* StringCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				0D82CF03237AC6BE0033C8EC /* Assets.xcassets */,
 				0D82CF05237AC6BE0033C8EC /* LaunchScreen.storyboard */,
 				0D82CF08237AC6BE0033C8EC /* Info.plist */,
+				0D82CF2A237ACA2C0033C8EC /* StringCalculator.swift */,
 			);
 			path = CursoQA;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				0D82CEFF237AC6BD0033C8EC /* ViewController.swift in Sources */,
 				0D82CEFB237AC6BD0033C8EC /* AppDelegate.swift in Sources */,
+				0D82CF2B237ACA2C0033C8EC /* StringCalculator.swift in Sources */,
 				0D82CEFD237AC6BD0033C8EC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,26 +9,41 @@
 import XCTest
 @testable import CursoQA
 
+
 class CursoQATests: XCTestCase {
 
+    var calculator : StringCalculator!
+
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        calculator = StringCalculator()
     }
 
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    func testReturnsZeroIfTheStringIsEmpty() {
+
+        evaluateStringCalculator(input: "", expected: 0)
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testGivenANumberReturnsTheNumer() {
+
+        evaluateStringCalculator(input: "4", expected: 4)
+
     }
 
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testGivenANumberReturnsTheSum() {
+
+        evaluateStringCalculator(input: "4,5", expected: 9)
+
     }
+
+    func testGivenANumberReturnsTheSumWithSmallNumbers() {
+
+        evaluateStringCalculator(input: "1,2", expected: 3)
+
+    }
+
+    func evaluateStringCalculator(input:String, expected:Int) {
+        XCTAssertEqual(calculator.add(numbers: input), expected)
+    }
+
 
 }
