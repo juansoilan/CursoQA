@@ -1,0 +1,10 @@
+language: swift
+osx_image: xcode8.2
+xcode_project: CursoQA.xcodeproj
+xcode_scheme: CursoQA
+xcode_sdk: iphonesimulator10.2
+script: xcodebuild -project CursoQA.xcodeproj -scheme CursoQA -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+
+notifications:
+  email: false
+
