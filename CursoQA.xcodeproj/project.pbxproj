@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DDB22FF237AB2A5003048EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB22FE237AB2A5003048EE /* AppDelegate.swift */; };
-		0DDB2301237AB2A5003048EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB2300237AB2A5003048EE /* SceneDelegate.swift */; };
-		0DDB2303237AB2A5003048EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB2302237AB2A5003048EE /* ContentView.swift */; };
-		0DDB2305237AB2A7003048EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DDB2304237AB2A7003048EE /* Assets.xcassets */; };
-		0DDB2308237AB2A7003048EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DDB2307237AB2A7003048EE /* Preview Assets.xcassets */; };
-		0DDB230B237AB2A7003048EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DDB2309237AB2A7003048EE /* LaunchScreen.storyboard */; };
-		0DDB2316237AB2A7003048EE /* CursoQATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB2315237AB2A7003048EE /* CursoQATests.swift */; };
-		0DDB2321237AB2A7003048EE /* CursoQAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB2320237AB2A7003048EE /* CursoQAUITests.swift */; };
+		0D82CEFB237AC6BD0033C8EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D82CEFA237AC6BD0033C8EC /* AppDelegate.swift */; };
+		0D82CEFD237AC6BD0033C8EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D82CEFC237AC6BD0033C8EC /* SceneDelegate.swift */; };
+		0D82CEFF237AC6BD0033C8EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D82CEFE237AC6BD0033C8EC /* ViewController.swift */; };
+		0D82CF02237AC6BD0033C8EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D82CF00237AC6BD0033C8EC /* Main.storyboard */; };
+		0D82CF04237AC6BE0033C8EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D82CF03237AC6BE0033C8EC /* Assets.xcassets */; };
+		0D82CF07237AC6BE0033C8EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D82CF05237AC6BE0033C8EC /* LaunchScreen.storyboard */; };
+		0D82CF12237AC6BE0033C8EC /* CursoQATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D82CF11237AC6BE0033C8EC /* CursoQATests.swift */; };
+		0D82CF1D237AC6BE0033C8EC /* CursoQAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D82CF1C237AC6BE0033C8EC /* CursoQAUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0DDB2312237AB2A7003048EE /* PBXContainerItemProxy */ = {
+		0D82CF0E237AC6BE0033C8EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0DDB22F3237AB2A5003048EE /* Project object */;
+			containerPortal = 0D82CEEF237AC6BD0033C8EC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0DDB22FA237AB2A5003048EE;
+			remoteGlobalIDString = 0D82CEF6237AC6BD0033C8EC;
 			remoteInfo = CursoQA;
 		};
-		0DDB231D237AB2A7003048EE /* PBXContainerItemProxy */ = {
+		0D82CF19237AC6BE0033C8EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0DDB22F3237AB2A5003048EE /* Project object */;
+			containerPortal = 0D82CEEF237AC6BD0033C8EC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0DDB22FA237AB2A5003048EE;
+			remoteGlobalIDString = 0D82CEF6237AC6BD0033C8EC;
 			remoteInfo = CursoQA;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DDB22FB237AB2A5003048EE /* CursoQA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoQA.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DDB22FE237AB2A5003048EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0DDB2300237AB2A5003048EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0DDB2302237AB2A5003048EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		0DDB2304237AB2A7003048EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0DDB2307237AB2A7003048EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0DDB230A237AB2A7003048EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0DDB230C237AB2A7003048EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0DDB2311237AB2A7003048EE /* CursoQATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursoQATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DDB2315237AB2A7003048EE /* CursoQATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoQATests.swift; sourceTree = "<group>"; };
-		0DDB2317237AB2A7003048EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0DDB231C237AB2A7003048EE /* CursoQAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursoQAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DDB2320237AB2A7003048EE /* CursoQAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoQAUITests.swift; sourceTree = "<group>"; };
-		0DDB2322237AB2A7003048EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D82CEF7237AC6BD0033C8EC /* CursoQA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoQA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D82CEFA237AC6BD0033C8EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D82CEFC237AC6BD0033C8EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0D82CEFE237AC6BD0033C8EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D82CF01237AC6BD0033C8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D82CF03237AC6BE0033C8EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D82CF06237AC6BE0033C8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D82CF08237AC6BE0033C8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D82CF0D237AC6BE0033C8EC /* CursoQATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursoQATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D82CF11237AC6BE0033C8EC /* CursoQATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoQATests.swift; sourceTree = "<group>"; };
+		0D82CF13237AC6BE0033C8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D82CF18237AC6BE0033C8EC /* CursoQAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursoQAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D82CF1C237AC6BE0033C8EC /* CursoQAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoQAUITests.swift; sourceTree = "<group>"; };
+		0D82CF1E237AC6BE0033C8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0DDB22F8237AB2A5003048EE /* Frameworks */ = {
+		0D82CEF4237AC6BD0033C8EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0DDB230E237AB2A7003048EE /* Frameworks */ = {
+		0D82CF0A237AC6BE0033C8EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0DDB2319237AB2A7003048EE /* Frameworks */ = {
+		0D82CF15237AC6BE0033C8EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,62 +76,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DDB22F2237AB2A5003048EE = {
+		0D82CEEE237AC6BD0033C8EC = {
 			isa = PBXGroup;
 			children = (
-				0DDB22FD237AB2A5003048EE /* CursoQA */,
-				0DDB2314237AB2A7003048EE /* CursoQATests */,
-				0DDB231F237AB2A7003048EE /* CursoQAUITests */,
-				0DDB22FC237AB2A5003048EE /* Products */,
+				0D82CEF9237AC6BD0033C8EC /* CursoQA */,
+				0D82CF10237AC6BE0033C8EC /* CursoQATests */,
+				0D82CF1B237AC6BE0033C8EC /* CursoQAUITests */,
+				0D82CEF8237AC6BD0033C8EC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0DDB22FC237AB2A5003048EE /* Products */ = {
+		0D82CEF8237AC6BD0033C8EC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0DDB22FB237AB2A5003048EE /* CursoQA.app */,
-				0DDB2311237AB2A7003048EE /* CursoQATests.xctest */,
-				0DDB231C237AB2A7003048EE /* CursoQAUITests.xctest */,
+				0D82CEF7237AC6BD0033C8EC /* CursoQA.app */,
+				0D82CF0D237AC6BE0033C8EC /* CursoQATests.xctest */,
+				0D82CF18237AC6BE0033C8EC /* CursoQAUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0DDB22FD237AB2A5003048EE /* CursoQA */ = {
+		0D82CEF9237AC6BD0033C8EC /* CursoQA */ = {
 			isa = PBXGroup;
 			children = (
-				0DDB22FE237AB2A5003048EE /* AppDelegate.swift */,
-				0DDB2300237AB2A5003048EE /* SceneDelegate.swift */,
-				0DDB2302237AB2A5003048EE /* ContentView.swift */,
-				0DDB2304237AB2A7003048EE /* Assets.xcassets */,
-				0DDB2309237AB2A7003048EE /* LaunchScreen.storyboard */,
-				0DDB230C237AB2A7003048EE /* Info.plist */,
-				0DDB2306237AB2A7003048EE /* Preview Content */,
+				0D82CEFA237AC6BD0033C8EC /* AppDelegate.swift */,
+				0D82CEFC237AC6BD0033C8EC /* SceneDelegate.swift */,
+				0D82CEFE237AC6BD0033C8EC /* ViewController.swift */,
+				0D82CF00237AC6BD0033C8EC /* Main.storyboard */,
+				0D82CF03237AC6BE0033C8EC /* Assets.xcassets */,
+				0D82CF05237AC6BE0033C8EC /* LaunchScreen.storyboard */,
+				0D82CF08237AC6BE0033C8EC /* Info.plist */,
 			);
 			path = CursoQA;
 			sourceTree = "<group>";
 		};
-		0DDB2306237AB2A7003048EE /* Preview Content */ = {
+		0D82CF10237AC6BE0033C8EC /* CursoQATests */ = {
 			isa = PBXGroup;
 			children = (
-				0DDB2307237AB2A7003048EE /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		0DDB2314237AB2A7003048EE /* CursoQATests */ = {
-			isa = PBXGroup;
-			children = (
-				0DDB2315237AB2A7003048EE /* CursoQATests.swift */,
-				0DDB2317237AB2A7003048EE /* Info.plist */,
+				0D82CF11237AC6BE0033C8EC /* CursoQATests.swift */,
+				0D82CF13237AC6BE0033C8EC /* Info.plist */,
 			);
 			path = CursoQATests;
 			sourceTree = "<group>";
 		};
-		0DDB231F237AB2A7003048EE /* CursoQAUITests */ = {
+		0D82CF1B237AC6BE0033C8EC /* CursoQAUITests */ = {
 			isa = PBXGroup;
 			children = (
-				0DDB2320237AB2A7003048EE /* CursoQAUITests.swift */,
-				0DDB2322237AB2A7003048EE /* Info.plist */,
+				0D82CF1C237AC6BE0033C8EC /* CursoQAUITests.swift */,
+				0D82CF1E237AC6BE0033C8EC /* Info.plist */,
 			);
 			path = CursoQAUITests;
 			sourceTree = "<group>";
@@ -139,13 +131,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0DDB22FA237AB2A5003048EE /* CursoQA */ = {
+		0D82CEF6237AC6BD0033C8EC /* CursoQA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DDB2325237AB2A7003048EE /* Build configuration list for PBXNativeTarget "CursoQA" */;
+			buildConfigurationList = 0D82CF21237AC6BE0033C8EC /* Build configuration list for PBXNativeTarget "CursoQA" */;
 			buildPhases = (
-				0DDB22F7237AB2A5003048EE /* Sources */,
-				0DDB22F8237AB2A5003048EE /* Frameworks */,
-				0DDB22F9237AB2A5003048EE /* Resources */,
+				0D82CEF3237AC6BD0033C8EC /* Sources */,
+				0D82CEF4237AC6BD0033C8EC /* Frameworks */,
+				0D82CEF5237AC6BD0033C8EC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -153,69 +145,69 @@
 			);
 			name = CursoQA;
 			productName = CursoQA;
-			productReference = 0DDB22FB237AB2A5003048EE /* CursoQA.app */;
+			productReference = 0D82CEF7237AC6BD0033C8EC /* CursoQA.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0DDB2310237AB2A7003048EE /* CursoQATests */ = {
+		0D82CF0C237AC6BE0033C8EC /* CursoQATests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DDB2328237AB2A7003048EE /* Build configuration list for PBXNativeTarget "CursoQATests" */;
+			buildConfigurationList = 0D82CF24237AC6BE0033C8EC /* Build configuration list for PBXNativeTarget "CursoQATests" */;
 			buildPhases = (
-				0DDB230D237AB2A7003048EE /* Sources */,
-				0DDB230E237AB2A7003048EE /* Frameworks */,
-				0DDB230F237AB2A7003048EE /* Resources */,
+				0D82CF09237AC6BE0033C8EC /* Sources */,
+				0D82CF0A237AC6BE0033C8EC /* Frameworks */,
+				0D82CF0B237AC6BE0033C8EC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0DDB2313237AB2A7003048EE /* PBXTargetDependency */,
+				0D82CF0F237AC6BE0033C8EC /* PBXTargetDependency */,
 			);
 			name = CursoQATests;
 			productName = CursoQATests;
-			productReference = 0DDB2311237AB2A7003048EE /* CursoQATests.xctest */;
+			productReference = 0D82CF0D237AC6BE0033C8EC /* CursoQATests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0DDB231B237AB2A7003048EE /* CursoQAUITests */ = {
+		0D82CF17237AC6BE0033C8EC /* CursoQAUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DDB232B237AB2A7003048EE /* Build configuration list for PBXNativeTarget "CursoQAUITests" */;
+			buildConfigurationList = 0D82CF27237AC6BE0033C8EC /* Build configuration list for PBXNativeTarget "CursoQAUITests" */;
 			buildPhases = (
-				0DDB2318237AB2A7003048EE /* Sources */,
-				0DDB2319237AB2A7003048EE /* Frameworks */,
-				0DDB231A237AB2A7003048EE /* Resources */,
+				0D82CF14237AC6BE0033C8EC /* Sources */,
+				0D82CF15237AC6BE0033C8EC /* Frameworks */,
+				0D82CF16237AC6BE0033C8EC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0DDB231E237AB2A7003048EE /* PBXTargetDependency */,
+				0D82CF1A237AC6BE0033C8EC /* PBXTargetDependency */,
 			);
 			name = CursoQAUITests;
 			productName = CursoQAUITests;
-			productReference = 0DDB231C237AB2A7003048EE /* CursoQAUITests.xctest */;
+			productReference = 0D82CF18237AC6BE0033C8EC /* CursoQAUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0DDB22F3237AB2A5003048EE /* Project object */ = {
+		0D82CEEF237AC6BD0033C8EC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = MOBGEN;
 				TargetAttributes = {
-					0DDB22FA237AB2A5003048EE = {
+					0D82CEF6237AC6BD0033C8EC = {
 						CreatedOnToolsVersion = 11.0;
 					};
-					0DDB2310237AB2A7003048EE = {
+					0D82CF0C237AC6BE0033C8EC = {
 						CreatedOnToolsVersion = 11.0;
-						TestTargetID = 0DDB22FA237AB2A5003048EE;
+						TestTargetID = 0D82CEF6237AC6BD0033C8EC;
 					};
-					0DDB231B237AB2A7003048EE = {
+					0D82CF17237AC6BE0033C8EC = {
 						CreatedOnToolsVersion = 11.0;
-						TestTargetID = 0DDB22FA237AB2A5003048EE;
+						TestTargetID = 0D82CEF6237AC6BD0033C8EC;
 					};
 				};
 			};
-			buildConfigurationList = 0DDB22F6237AB2A5003048EE /* Build configuration list for PBXProject "CursoQA" */;
+			buildConfigurationList = 0D82CEF2237AC6BD0033C8EC /* Build configuration list for PBXProject "CursoQA" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,37 +215,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 0DDB22F2237AB2A5003048EE;
-			productRefGroup = 0DDB22FC237AB2A5003048EE /* Products */;
+			mainGroup = 0D82CEEE237AC6BD0033C8EC;
+			productRefGroup = 0D82CEF8237AC6BD0033C8EC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0DDB22FA237AB2A5003048EE /* CursoQA */,
-				0DDB2310237AB2A7003048EE /* CursoQATests */,
-				0DDB231B237AB2A7003048EE /* CursoQAUITests */,
+				0D82CEF6237AC6BD0033C8EC /* CursoQA */,
+				0D82CF0C237AC6BE0033C8EC /* CursoQATests */,
+				0D82CF17237AC6BE0033C8EC /* CursoQAUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0DDB22F9237AB2A5003048EE /* Resources */ = {
+		0D82CEF5237AC6BD0033C8EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DDB230B237AB2A7003048EE /* LaunchScreen.storyboard in Resources */,
-				0DDB2308237AB2A7003048EE /* Preview Assets.xcassets in Resources */,
-				0DDB2305237AB2A7003048EE /* Assets.xcassets in Resources */,
+				0D82CF07237AC6BE0033C8EC /* LaunchScreen.storyboard in Resources */,
+				0D82CF04237AC6BE0033C8EC /* Assets.xcassets in Resources */,
+				0D82CF02237AC6BD0033C8EC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0DDB230F237AB2A7003048EE /* Resources */ = {
+		0D82CF0B237AC6BE0033C8EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0DDB231A237AB2A7003048EE /* Resources */ = {
+		0D82CF16237AC6BE0033C8EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -263,52 +255,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0DDB22F7237AB2A5003048EE /* Sources */ = {
+		0D82CEF3237AC6BD0033C8EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DDB22FF237AB2A5003048EE /* AppDelegate.swift in Sources */,
-				0DDB2301237AB2A5003048EE /* SceneDelegate.swift in Sources */,
-				0DDB2303237AB2A5003048EE /* ContentView.swift in Sources */,
+				0D82CEFF237AC6BD0033C8EC /* ViewController.swift in Sources */,
+				0D82CEFB237AC6BD0033C8EC /* AppDelegate.swift in Sources */,
+				0D82CEFD237AC6BD0033C8EC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0DDB230D237AB2A7003048EE /* Sources */ = {
+		0D82CF09237AC6BE0033C8EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DDB2316237AB2A7003048EE /* CursoQATests.swift in Sources */,
+				0D82CF12237AC6BE0033C8EC /* CursoQATests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0DDB2318237AB2A7003048EE /* Sources */ = {
+		0D82CF14237AC6BE0033C8EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DDB2321237AB2A7003048EE /* CursoQAUITests.swift in Sources */,
+				0D82CF1D237AC6BE0033C8EC /* CursoQAUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0DDB2313237AB2A7003048EE /* PBXTargetDependency */ = {
+		0D82CF0F237AC6BE0033C8EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0DDB22FA237AB2A5003048EE /* CursoQA */;
-			targetProxy = 0DDB2312237AB2A7003048EE /* PBXContainerItemProxy */;
+			target = 0D82CEF6237AC6BD0033C8EC /* CursoQA */;
+			targetProxy = 0D82CF0E237AC6BE0033C8EC /* PBXContainerItemProxy */;
 		};
-		0DDB231E237AB2A7003048EE /* PBXTargetDependency */ = {
+		0D82CF1A237AC6BE0033C8EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0DDB22FA237AB2A5003048EE /* CursoQA */;
-			targetProxy = 0DDB231D237AB2A7003048EE /* PBXContainerItemProxy */;
+			target = 0D82CEF6237AC6BD0033C8EC /* CursoQA */;
+			targetProxy = 0D82CF19237AC6BE0033C8EC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0DDB2309237AB2A7003048EE /* LaunchScreen.storyboard */ = {
+		0D82CF00237AC6BD0033C8EC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0DDB230A237AB2A7003048EE /* Base */,
+				0D82CF01237AC6BD0033C8EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D82CF05237AC6BE0033C8EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D82CF06237AC6BE0033C8EC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0DDB2323237AB2A7003048EE /* Debug */ = {
+		0D82CF1F237AC6BE0033C8EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		0DDB2324237AB2A7003048EE /* Release */ = {
+		0D82CF20237AC6BE0033C8EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,14 +430,12 @@
 			};
 			name = Release;
 		};
-		0DDB2326237AB2A7003048EE /* Debug */ = {
+		0D82CF22237AC6BE0033C8EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CursoQA/Preview Content\"";
 				DEVELOPMENT_TEAM = 4DWNK4MCTP;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CursoQA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,14 +448,12 @@
 			};
 			name = Debug;
 		};
-		0DDB2327237AB2A7003048EE /* Release */ = {
+		0D82CF23237AC6BE0033C8EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CursoQA/Preview Content\"";
 				DEVELOPMENT_TEAM = 4DWNK4MCTP;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CursoQA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -470,7 +466,7 @@
 			};
 			name = Release;
 		};
-		0DDB2329237AB2A7003048EE /* Debug */ = {
+		0D82CF25237AC6BE0033C8EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -492,7 +488,7 @@
 			};
 			name = Debug;
 		};
-		0DDB232A237AB2A7003048EE /* Release */ = {
+		0D82CF26237AC6BE0033C8EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -514,7 +510,7 @@
 			};
 			name = Release;
 		};
-		0DDB232C237AB2A7003048EE /* Debug */ = {
+		0D82CF28237AC6BE0033C8EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -534,7 +530,7 @@
 			};
 			name = Debug;
 		};
-		0DDB232D237AB2A7003048EE /* Release */ = {
+		0D82CF29237AC6BE0033C8EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -557,43 +553,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0DDB22F6237AB2A5003048EE /* Build configuration list for PBXProject "CursoQA" */ = {
+		0D82CEF2237AC6BD0033C8EC /* Build configuration list for PBXProject "CursoQA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0DDB2323237AB2A7003048EE /* Debug */,
-				0DDB2324237AB2A7003048EE /* Release */,
+				0D82CF1F237AC6BE0033C8EC /* Debug */,
+				0D82CF20237AC6BE0033C8EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0DDB2325237AB2A7003048EE /* Build configuration list for PBXNativeTarget "CursoQA" */ = {
+		0D82CF21237AC6BE0033C8EC /* Build configuration list for PBXNativeTarget "CursoQA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0DDB2326237AB2A7003048EE /* Debug */,
-				0DDB2327237AB2A7003048EE /* Release */,
+				0D82CF22237AC6BE0033C8EC /* Debug */,
+				0D82CF23237AC6BE0033C8EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0DDB2328237AB2A7003048EE /* Build configuration list for PBXNativeTarget "CursoQATests" */ = {
+		0D82CF24237AC6BE0033C8EC /* Build configuration list for PBXNativeTarget "CursoQATests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0DDB2329237AB2A7003048EE /* Debug */,
-				0DDB232A237AB2A7003048EE /* Release */,
+				0D82CF25237AC6BE0033C8EC /* Debug */,
+				0D82CF26237AC6BE0033C8EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0DDB232B237AB2A7003048EE /* Build configuration list for PBXNativeTarget "CursoQAUITests" */ = {
+		0D82CF27237AC6BE0033C8EC /* Build configuration list for PBXNativeTarget "CursoQAUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0DDB232C237AB2A7003048EE /* Debug */,
-				0DDB232D237AB2A7003048EE /* Release */,
+				0D82CF28237AC6BE0033C8EC /* Debug */,
+				0D82CF29237AC6BE0033C8EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0DDB22F3237AB2A5003048EE /* Project object */;
+	rootObject = 0D82CEEF237AC6BD0033C8EC /* Project object */;
 }
